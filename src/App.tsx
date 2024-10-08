@@ -3,7 +3,7 @@ import "./App.css";
 function App() {
   return (
     <form
-      action="submit"
+      onSubmit={console.log("Please put your function here")}
       className="flex flex-col gap-y-8 mt-64 justify-center items-center bg-slate-600 p-12"
     >
       <input type="text" className="p-4 bg-white text-slate-950 rounded-xl" />
